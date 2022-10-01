@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking the StyleSheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Linking the Javascript File -->
+    <script src="./script.js"></script>
+    <!-- Title of the WebPage -->
+    <title>Employee Validation Form - Priyanshu Singh</title>
+</head>
+
+<!-- Body Of the Page -->
+<body style="background-color: rgb(179, 244, 163);">
+    <!-- Heading -->
+    <div class="title-wrapper">
+        <h1><u>Employee Validation Form</u></h1>
+    </div>
+    <br><br>
+    <!-- Div container conatining form -->
+    <div class="body-wrapper">
+        <form id="form" action="/action_page.php" style="font-size: 20px;">
+            <b>
+                <!-- Text and label for name -->
+                <div class="name-wrapper">
+                    <label for="name" style="margin-right: 70px;">Name:</label>
+                    <input type="text" id="name" placeholder="Name">
+                    <div class="name_para-wrapper">
+                        <p id="name-op"></p>
+                    </div>
+                </div>
+
+                <!-- Text and label for User ID. -->
+                <div class="reg-wrapper">
+                    <label for="reg" style="margin-right: 57px;">User ID:</label>
+                    <input type="text" id="reg" placeholder="10SEDxxxx">
+                    <div class="reg_para-wrapper">
+                        <p id="reg-op"></p>
+                    </div>
+                </div>
+                
+
+                <!-- Text and label for Institute -->
+                <div class="year-wrapper">
+                    <label for="year" style="margin-right: 78px;">Institute:</label>
+                    <input type="text" id="year" placeholder="Amazon, New York">
+                    <div class="year_para-wrapper">
+                        <p id="year-op"></p>
+                    </div>
+                </div>
+                
+
+                <!-- Date and label for Date of Joining -->
+                <div class="dob-wrapper">
+                    <label for="date">Date Of Joining:</label>
+                    <input type="date" name="date" id="date" >
+                </div>
+                
+
+                <!-- Textarea and label for Address -->
+                <div class="address-wrapper">
+                    <label for="add" style="margin-right: 50px">Address:</label>
+                    <textarea name="add" id="add" cols="30" rows="10" placeholder="Your Address"></textarea>
+                    <div class="address_para-wrapper">
+                        <p id="address-op"></p>
+                    </div>
+                </div>
+
+                <!-- Text and label for city -->
+                <div class="city-wrapper">
+                    <label for="city" style="margin-right: 82px;">Research Interest:</label>
+                    <input type="text" id="city" placeholder="AE, SDE, ML">
+                    <div class="city_para-wrapper">
+                        <p id="city-op"></p>
+                    </div>
+                </div>
+                
+                
+
+                <!-- Email and label for mail-->
+                <div class="mail-wrapper">
+                    <label for="mail" style="margin-right: 67px;">Email:</label>
+                    <input type="email" id="mail" placeholder="abc@gmail.com">
+                    <div class="mail_para-wrapper">
+                        <p id="mail-op"></p>
+                    </div>
+                </div>
+                
+
+                <!-- Text and label for mobile -->
+                <div class="mobile-wrapper">
+                    <label for="mobile" style="margin-right: 29px;">Contact No:</label>
+                    <input type="text" id="mobile" placeholder="99xxxxxx80">
+                    <div class="mobile_para-wrapper">
+                        <p id="mobile-op"></p>
+                    </div>
+                </div>
+                <br>
+                <!-- Radio and label for Department -->
+                <div class="gender-wrapper">
+                    <label for="gender">Department:</label>
+                    <label for="Systems Engineer">
+                        <input type="radio" id="Systems Engineer" name="gender" style="margin-left: 50px;" required>
+                        Systems Engineer</label>
+
+                    
+                    <label for="Senior Systems Engineer">
+                        <input type="radio" id="Senior Systems Engineer" name="gender" style="margin-left: 50px;">
+                        Senior Systems Engineer</label>
+
+                    <label for="Technology Analyst">
+                        <input type="radio" id="Technology Analyst" name="gender" style="margin-left: 50px;">
+                        Technology Analyst</label>
+
+                     <label for="Project Manager">
+                        <input type="radio" id="Project Manager" name="gender" style="margin-left: 50px;">
+                        Project Manager</label>
+                </div>
+                <br>
+
+                <div class="dummy">
+                        <p id="final-op"></p>
+                        <br>
+                </div>
+
+                <!-- Button and label for Submit and Reset -->
+                <div class="button-wrapper">
+                    <button class="custom-buttom"  type="submit" id="form" value="submit" style="margin-left: 80px; margin-right: 100px;" onclick="validate_year(), validate_name(), validate_reg(), 
+                    validate_address(), validate_city_state(), validate_mail(), validate_mobile(), check()">Submit</button>
+                    <button class="custom-buttom" type="button" id="form" value="reset" onclick="reload()">Reset</button>
+                </div>
+            </b>
+        </form>
+    </div>
+
+</body>
+</html>

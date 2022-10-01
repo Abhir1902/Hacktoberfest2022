@@ -1,0 +1,100 @@
+.title-wrapper
+{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        border: 3px solid black;
+        border-radius: 50px;
+        width: 500px;
+        margin-left: 500px;
+}
+
+.body-wrapper
+{
+        border: 5px solid #0a5a07;
+        padding: 50px;
+        border-radius: 25px;
+}
+
+.dummy
+{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        border: 3px solid black;
+        border-radius: 50px;
+        width: 500px;
+        margin-left: 500px;
+        background-color: rgb(18, 75, 8);
+        font-size: 25px;
+        color: white;
+}
+.gender-wrapper
+{
+        border: 1px solid black;
+        border-radius: 30px;
+        margin: 10px 20px 10px 35px;
+        background-color: rgb(18, 75, 8);
+        color: rgb(255, 255, 255);
+        padding: 10px;
+}
+
+.name-wrapper, .mail-wrapper, .reg-wrapper, .dep-wrapper, .year-wrapper, .dob-wrapper, .address-wrapper, .city-wrapper,
+.state-wrapper, .mail-wrapper, .mobile-wrapper,  .campus-wrapper, .file-wrapper,.button-wrapper
+{
+        margin: 10px 20px 10px 35px;
+        background: none;
+        border: 1px solid black;
+        padding: 10px;
+        width: 600px;
+        display: inline-block;
+        filter: blur(0px);
+        background-color: rgb(18, 75, 8);
+        border-radius: 30px;
+        color: rgb(255, 255, 255);
+        
+        /* background-image: linear-gradient(to right, rgba(128, 142, 249, 0), rgb(95, 95, 245)); */
+}
+
+
+.button-wrapper
+{
+        margin: 10px 450px 10px 450px;
+}
+
+.year_para-wrapper, .name_para-wrapper, .reg_para-wrapper, .address_para-wrapper, .city_para-wrapper,
+.state_para-wrapper, .mail_para-wrapper, .mobile_para-wrapper
+{
+        margin: 0px 0px 0px 128px;
+        font-size: 17px;
+        
+}
+
+#name-op, #year-op, #reg-op, #address-op, #city-op, #state-op, #mail-op, #mobile-op
+{
+        color: red;
+}
+
+.custom-buttom
+{
+        padding: 10px;
+        border-radius: 30px;
+        width: 150px;
+        cursor: pointer;
+        overflow: hidden;
+        transition: all .5s;
+        font-size: 20px;
+        background-color: rgb(157, 240, 212);
+
+}
+.custom-buttom:before{
+        color: #ffffff;
+        z-index: -6;
+        transform: translate3D(0,0,0);
+      }
+      
+.custom-buttom:hover{
+                color: rgb(111, 111, 129);
+}
+
+
