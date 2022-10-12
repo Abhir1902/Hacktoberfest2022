@@ -84,9 +84,12 @@
         overflow: hidden;
         transition: all .5s;
         font-size: 20px;
-        background-color: rgb(157, 240, 212);
+        background-color: rgb(247, 248, 252);
 
 }
+/* .button:hover{
+
+} */
 .custom-buttom:before{
         color: #ffffff;
         z-index: -6;
@@ -94,7 +97,7 @@
       }
       
 .custom-buttom:hover{
-                color: rgb(111, 111, 129);
+                background-color: rgb(59, 198, 61);
 }
 
 
