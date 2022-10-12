@@ -9,7 +9,6 @@ function validate_name(){
         if(x=="")
         {
           text = "Name can't be empty!";
-          
         }
         else{
           text = "Nice Name!!";
@@ -151,7 +150,7 @@ function validate_name(){
           document.getElementById("mail-op").innerHTML = text;
         }
         else{
-          text = "InValid Email Address!!";
+          text = "Invalid Email Address!!";
 
           document.getElementById("mail-op").innerHTML = text;
         }
