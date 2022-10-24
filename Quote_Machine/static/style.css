@@ -1,0 +1,32 @@
+html {
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    color: #f00030;
+    background-color: currentColor;
+    overflow-x: hidden;
+}
+button {
+    background-color: white;
+    color: currentColor;
+}
+#tweetButton {
+  color: blue;
+}
+#tweetButton:hover {
+  color: skyblue;
+}
+#tweet-quote {
+  text-decoration: none;
+}
+#new-quote {
+  color: red;
+}
+#new-quote:hover {
+  color: orange;
+}
+#text {
+  text-align: center;
+}
