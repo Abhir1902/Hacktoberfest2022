@@ -1,0 +1,218 @@
+:root {
+    --naranja: #ff8400;
+    --morado: #6d3db2;
+    --amarillo: #ffc000;
+    --blanco: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.nav-top {
+    background-color: var(--naranja);
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-top figure {
+    margin: auto;
+}
+
+.nav-top img {
+    height: 20px;
+    margin-top: 5px;
+}
+
+.slides-section {
+    margin: 40px auto;
+}
+
+.button-container {
+    width: 90%;
+    margin: auto;
+}
+
+.button-container button {
+    background: #d1d1d1;
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #939393;
+}
+
+.button-container button:hover {
+    background: #bcbcbc;
+    color: #787878;
+}
+
+.button-container button.selected {
+    background-color: var(--morado);
+    color: #fff;
+    border-radius: 40px 40px 10px 10px;
+}
+
+.slides-container {
+    height: 400px;
+    display: flex;
+}
+
+.slide-half {
+    display: flex;
+    height: 100%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.text-container {
+    width: 70%;
+    margin-left: 10%;
+    padding-top: 40px;
+}
+
+.text-container h1 {
+    color: var(--naranja);
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+}
+
+.text-container p {
+    color: var(--morado);
+    font-weight: 300;
+}
+
+.background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#backSlide1 {
+    background-image: url('../imagenes/slide_1.gif');
+}
+
+#backSlide2 {
+    background-image: url('../imagenes/slide_2.gif');
+}
+
+
+#animal_a {
+    background-image: url('../imagenes/animal_a.jpg');
+}
+
+#animal_b {
+    background-image: url('../imagenes/animal_b.jpg');
+}
+
+#animal_c {
+    background-image: url('../imagenes/animal_c.jpg');
+}
+
+#animal_d {
+    background-image: url('../imagenes/animal_d.jpg');
+}
+
+#animal_e {
+    background-image: url('../imagenes/animal_e.jpg');
+}
+
+#animal_f {
+    background-image: url('../imagenes/animal_f.jpg');
+}
+
+.slide-full {
+    width: 100%;
+}
+
+.slide-full .text-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 0;
+}
+
+.animal-btn {
+    background: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.animal-btn:hover {
+    border: 2px solid var(--naranja);
+}
+
+.animal-btns-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.full-block {
+    position: fixed;
+    background: #6d3db282;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    top: 0;
+    bottom: 0;
+}
+
+.pop-container {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    height: 550px;
+    background-color: #fff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.animal-icecream {
+    background-color: red;
+    height: 300px;
+    margin: auto;
+    width: 300px;
+    border-radius: 200px;
+    margin-top: 60px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pop-container h1 {
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+}
+
+.pop-container button {
+    background-color: var(--morado);
+    border: none;
+    font-family: 'Fredoka One', cursive;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}

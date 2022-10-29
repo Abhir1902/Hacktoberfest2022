@@ -1,0 +1,28 @@
+** Google Fonts **
+
+	Para este ejercicio:
+	https://fonts.google.com/specimen/Fredoka+One
+	https://fonts.google.com/specimen/Open+Sans
+
+
+** Icon Finder Font **
+
+	lINK DE DESCARGA (Para futuras referencias)
+	https://fontawesome.com/icons?from=io
+
+  	META
+	<script src="https://kit.fontawesome.com/85ff0e47b1.js"></script>
+
+** Colores **
+
+	Googlea: "color web picker"
+
+	Para este ejercicio:
+	--naranja: #ff8400;
+  	--morado: #6d3db2;
+  	--amarillo: #ffc000;
+  	--blanco:#fff;
+
+**JS
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
